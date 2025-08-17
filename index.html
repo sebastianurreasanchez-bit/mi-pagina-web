@@ -1,0 +1,2001 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SKSSKS7YWJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-SKSSKS7YWJ');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Manuel Sebastian Urrea - Mercadólogo y Estratega Comercial Profesional, Especialista en CRM y automatización con IA.">
+    <title>Manuel Sebastian Urrea - Portafolio</title>
+
+    <!-- Fuentes -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- AOS para animaciones de scroll -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <style>
+        /* Variables CSS para una gestión de estilos más sencilla */
+        :root {
+            --primary: #3a86ff; /* Azul vibrante */
+            --primary-light: #61a0ff; /* Azul más claro */
+            --primary-dark: #2563eb; /* Azul más oscuro */
+            --secondary: #7209b7; /* Morado */
+            --accent: #4cc9f0; /* Cian */
+            --dark: #0f172a; /* Fondo muy oscuro */
+            --dark-secondary: #1e293b; /* Fondo oscuro secundario */
+            --light: #f8fafc; /* Color de texto claro */
+            --light-secondary: #e2e8f0; /* Color de texto claro secundario */
+            --text-primary: #f8fafc; /* Texto principal claro */
+            --text-secondary: #94a3b8; /* Texto secundario gris azulado */
+            --success: #10b981; /* Verde éxito */
+            --warning: #f59e0b; /* Naranja advertencia */
+            --danger: #ef4444; /* Rojo peligro */
+            --gradient-main: linear-gradient(135deg, var(--primary), var(--secondary)); /* Gradiente principal */
+            --gradient-accent: linear-gradient(135deg, var(--accent), var(--primary)); /* Gradiente de acento */
+            --gradient-1: linear-gradient(135deg, var(--primary), var(--accent));
+            --gradient-2: linear-gradient(135deg, var(--secondary), var(--primary));
+            --gradient-3: linear-gradient(135deg, var(--accent), var(--secondary));
+            --gradient-4: linear-gradient(135deg, var(--primary-dark), var(--primary-light));
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra pequeña */
+            --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra mediana */
+            --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.2); /* Sombra grande */
+            --primary-rgb: 58, 134, 255; /* Componentes RGB del color primario */
+            --bg-primary: var(--dark); /* Fondo principal */
+            --bg-secondary: var(--dark-secondary); /* Fondo secundario */
+            --rounded-sm: 0.25rem; /* Bordes redondeados pequeños */
+            --rounded-md: 0.5rem; /* Bordes redondeados medianos */
+            --rounded-lg: 1rem; /* Bordes redondeados grandes */
+            --rounded-full: 9999px; /* Bordes completamente redondeados (círculo) */
+            --header-height: 80px; /* Altura del encabezado */
+            --font-primary: 'Inter', sans-serif; /* Fuente principal */
+            --font-secondary: 'Space Grotesk', sans-serif; /* Fuente secundaria para títulos */
+            --transition-normal: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Transición estándar */
+            --transition-smooth: all 0.6s cubic-bezier(0.16, 1, 0.3, 1); /* Transición suave */
+        }
+
+        /* Reset y estilos generales para asegurar consistencia entre navegadores */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* Incluye padding y border en el tamaño total del elemento */
+        }
+
+        /* Comportamiento de scroll suave para anclas y padding para el encabezado fijo */
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: var(--header-height);
+        }
+
+        /* Estilos base del cuerpo del documento */
+        body {
+            font-family: var(--font-primary);
+            background: var(--dark); /* Color de fondo oscuro principal */
+            color: var(--text-primary); /* Color de texto principal claro */
+            line-height: 1.6; /* Espaciado entre líneas para mejor legibilidad */
+            overflow-x: hidden; /* Evita el scroll horizontal */
+            font-size: 16px; /* Tamaño de fuente base */
+        }
+
+        /* Estilos para los títulos (h1 a h6) */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: var(--font-secondary); /* Fuente secundaria para títulos */
+            font-weight: 700; /* Negrita */
+            line-height: 1.2; /* Altura de línea compacta para títulos */
+        }
+
+        /* Estilos para enlaces */
+        a {
+            text-decoration: none; /* Sin subrayado */
+            color: inherit; /* Hereda el color del texto del padre */
+            transition: var(--transition-normal); /* Transición suave al interactuar */
+        }
+
+        /* Estilos para imágenes */
+        img {
+            max-width: 100%; /* Asegura que las imágenes no desborden su contenedor */
+            height: auto; /* Mantiene la proporción de la imagen */
+        }
+
+        /* Clase para texto resaltado con el color primario */
+        .highlight {
+            color: var(--primary);
+        }
+
+        /* Contenedor general para centrar el contenido */
+        .container {
+            max-width: 1200px; /* Ancho máximo */
+            margin: 0 auto; /* Centrar horizontalmente */
+            padding: 0 2rem; /* Relleno lateral */
+        }
+
+        /* Utilidades */
+        /* Estilo para texto con gradiente */
+        .text-gradient {
+            background: var(--gradient-main);
+            -webkit-background-clip: text; /* Para navegadores basados en WebKit */
+            -webkit-text-fill-color: transparent; /* Para navegadores basados en WebKit */
+            background-clip: text; /* Para otros navegadores */
+            color: transparent; /* Asegura que el color de texto sea transparente */
+        }
+
+        /* Estilos para las secciones de contenido */
+        .section {
+            padding: 6rem 0; /* Relleno superior e inferior */
+            position: relative;
+        }
+
+        /* Títulos de sección */
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            position: relative;
+            display: inline-block; /* Permite aplicar el pseudo-elemento ::after */
+        }
+
+        /* Línea decorativa debajo del título de sección */
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: var(--gradient-main);
+            border-radius: var(--rounded-full);
+        }
+
+        /* Navbar */
+        .navbar {
+            position: fixed; /* Fijo en la parte superior */
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000; /* Asegura que esté por encima de otros elementos */
+            background: rgba(15, 23, 42, 0.9); /* Fondo semitransparente oscuro */
+            backdrop-filter: blur(10px); /* Efecto de desenfoque en el fondo */
+            padding: 1rem 0; /* Relleno vertical */
+            transition: var(--transition-normal); /* Transición para el scroll */
+            height: var(--header-height); /* Altura definida por variable */
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05); /* Línea inferior sutil */
+        }
+
+        /* Estilos de la Navbar cuando se hace scroll */
+        .navbar.scrolled {
+            padding: 0.7rem 0;
+            background: rgba(15, 23, 42, 0.98); /* Un poco más opaco */
+            box-shadow: var(--shadow-md); /* Sombra para efecto flotante */
+        }
+
+        /* Contenido de la navegación */
+        .nav-content {
+            display: flex;
+            justify-content: space-between; /* Espacio entre el logo y los enlaces */
+            align-items: center; /* Alinear verticalmente */
+            height: 100%;
+        }
+
+        /* Logo de la navegación */
+        .nav-logo {
+            font-size: 1.75rem;
+            font-weight: 700;
+            font-family: var(--font-secondary);
+            display: flex;
+            align-items: center;
+        }
+
+        /* Texto del logo con gradiente */
+        .logo-text {
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+        }
+
+        /* Enlaces de navegación */
+        .nav-links {
+            display: flex;
+            gap: 2.5rem; /* Espacio entre enlaces */
+            align-items: center;
+        }
+
+        /* Enlace individual de navegación */
+        .nav-link {
+            color: var(--text-secondary);
+            font-weight: 500;
+            font-size: 1rem;
+            position: relative;
+            padding: 0.5rem 0;
+        }
+
+        /* Subrayado animado para enlaces de navegación */
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--gradient-main);
+            transition: var(--transition-normal);
+            border-radius: var(--rounded-full);
+        }
+
+        /* Efecto al pasar el ratón y para el enlace activo */
+        .nav-link:hover,
+        .nav-link.active {
+            color: var(--text-primary); /* Cambia a color de texto principal */
+        }
+
+        /* Animación del subrayado al pasar el ratón o estar activo */
+        .nav-link:hover::after,
+        .nav-link.active::after {
+            width: 100%;
+        }
+
+        /* Botón de alternar menú (solo visible en móviles) */
+        .menu-toggle {
+            display: none; /* Oculto por defecto */
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh; /* Altura mínima del 100% del viewport */
+            display: flex;
+            align-items: center; /* Centrar verticalmente el contenido */
+            position: relative;
+            padding-top: var(--header-height); /* Espacio para el encabezado fijo */
+            overflow: hidden; /* Oculta cualquier desbordamiento (ej. partículas) */
+        }
+
+        /* Fondo de la sección Hero */
+        .hero-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Envía al fondo */
+        }
+
+        /* Degradado de fondo con círculos */
+        .gradient-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.2; /* Transparencia */
+            z-index: 0;
+        }
+
+        .gradient-bg .gradient-circle {
+            position: absolute;
+            border-radius: 50%; /* Círculos */
+            filter: blur(80px); /* Efecto de desenfoque */
+        }
+
+        /* Posiciones y tamaños de los círculos de degradado */
+        .gradient-bg .circle-1 {
+            top: 20%;
+            left: 10%;
+            width: 400px;
+            height: 400px;
+            background: var(--primary);
+            opacity: 0.3;
+        }
+
+        .gradient-bg .circle-2 {
+            bottom: 10%;
+            right: 10%;
+            width: 500px;
+            height: 500px;
+            background: var(--secondary);
+            opacity: 0.3;
+        }
+
+        .gradient-bg .circle-3 {
+            top: 40%;
+            right: 30%;
+            width: 300px;
+            height: 300px;
+            background: var(--accent);
+            opacity: 0.3;
+        }
+
+        /* Contenedor para partículas (Particles.js) */
+        .particles-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        /* Contenido principal de la sección Hero */
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            max-width: 800px;
+        }
+
+        /* Texto introductorio en Hero */
+        .hero-lead {
+            font-size: 1.25rem;
+            color: var(--primary);
+            font-weight: 500;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Título principal en Hero */
+        .hero-title {
+            font-size: 4rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Subtítulo en Hero */
+        .hero-subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+        }
+
+        /* Contenedor de botones de llamada a la acción */
+        .hero-cta {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2.5rem;
+        }
+
+        /* Estilos base para botones */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.875rem 2rem;
+            border-radius: var(--rounded-md);
+            font-weight: 600;
+            font-size: 1rem;
+            transition: var(--transition-normal);
+            cursor: pointer;
+            gap: 0.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Botón primario */
+        .btn-primary {
+            background: var(--gradient-main);
+            color: var(--light);
+            box-shadow: var(--shadow-md);
+        }
+
+        /* Efecto hover para botón primario */
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        /* Botón secundario */
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-primary);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* Efecto hover para botón secundario */
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-3px);
+        }
+
+        /* Iconos dentro de botones */
+        .btn i {
+            font-size: 1.1rem;
+        }
+
+        /* Iconos de redes sociales */
+        .social-icons {
+            display: flex;
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        /* Icono individual de red social */
+        .social-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 42px;
+            height: 42px;
+            border-radius: var(--rounded-full);
+            color: var(--text-primary);
+            font-size: 1.25rem;
+            background: rgba(255, 255, 255, 0.05);
+            transition: var(--transition-normal);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* Efecto hover para icono social */
+        .social-icon:hover {
+            background: var(--primary);
+            color: var(--light);
+            transform: translateY(-3px);
+        }
+
+        /* About Section */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr; /* Una columna para imagen, dos para contenido */
+            gap: 4rem; /* Espacio entre columnas */
+            align-items: center; /* Alinear verticalmente los elementos */
+        }
+
+        /* Contenedor de la imagen en sección About */
+        .about-image-container {
+            position: relative;
+        }
+
+        /* Imagen en sección About */
+        .about-image {
+            width: 100%;
+            border-radius: var(--rounded-lg);
+            box-shadow: var(--shadow-lg);
+            position: relative;
+            z-index: 2; /* Por encima del fondo decorativo */
+        }
+
+        /* Fondo decorativo de la imagen */
+        .image-backdrop {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: var(--rounded-lg);
+            background: var(--gradient-main);
+            top: 15px;
+            left: 15px;
+            z-index: 1;
+            opacity: 0.7;
+        }
+
+        /* Contenido de texto en sección About */
+        .about-content {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        /* Título de contenido en sección About */
+        .about-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Texto de párrafo en sección About */
+        .about-text {
+            color: var(--text-secondary);
+            font-size: 1.125rem;
+            line-height: 1.8;
+        }
+
+        /* Cuadrícula de estadísticas en sección About */
+        .about-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Columnas responsivas */
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        /* Elemento individual de estadística */
+        .stat-item {
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: var(--rounded-md);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            text-align: center;
+            transition: var(--transition-normal);
+        }
+
+        /* Efecto hover para elemento de estadística */
+        .stat-item:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        /* Número de estadística */
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            font-family: var(--font-secondary);
+        }
+
+        /* Etiqueta de estadística */
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        /* Recognitions Section */
+        .recognition-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Columnas responsivas */
+            gap: 2.5rem;
+        }
+
+        /* Tarjeta de reconocimiento */
+        .recognition-card {
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: var(--rounded-lg);
+            overflow: hidden;
+            transition: var(--transition-normal);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            height: 100%;
+            display: flex;
+            flex-direction: column; /* Para alinear contenido verticalmente */
+        }
+
+        /* Efecto hover para tarjeta de reconocimiento */
+        .recognition-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Imagen de reconocimiento */
+        .recognition-image {
+            width: 100%;
+            height: 180px;
+            object-fit: contain; /* Ajustar imagen dentro del contenedor */
+            background: rgba(255, 255, 255, 0.03);
+            padding: 2rem;
+            transition: var(--transition-normal);
+        }
+
+        /* Efecto hover para imagen de reconocimiento */
+        .recognition-card:hover .recognition-image {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        /* Contenido de texto de la tarjeta de reconocimiento */
+        .recognition-content {
+            padding: 2rem;
+            flex: 1; /* Permite que el contenido ocupe el espacio restante */
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Título de reconocimiento */
+        .recognition-title {
+            font-size: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-primary);
+        }
+
+        /* Descripción de reconocimiento */
+        .recognition-description {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            flex: 1;
+        }
+
+        /* Enlace de la tarjeta de reconocimiento */
+        .recognition-link {
+            display: inline-flex;
+            align-items: center;
+            color: var(--primary);
+            font-weight: 600;
+            gap: 0.5rem;
+            font-size: 0.95rem;
+            transition: var(--transition-normal);
+            margin-top: auto; /* Empuja el enlace hacia abajo */
+        }
+
+        /* Efecto hover para enlace de reconocimiento */
+        .recognition-link:hover {
+            gap: 0.75rem;
+            color: var(--primary-light);
+        }
+
+        /* Featured Section */
+        .featured-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Columnas responsivas */
+            gap: 2.5rem;
+        }
+
+        /* Tarjeta de elemento destacado */
+        .featured-card {
+            position: relative;
+            border-radius: var(--rounded-lg);
+            overflow: hidden;
+            background: rgba(255, 255, 255, 0.02);
+            transition: var(--transition-normal);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        /* Efecto hover para tarjeta destacada */
+        .featured-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Contenedor de imagen destacada */
+        .featured-image-container {
+            position: relative;
+            width: 100%;
+            padding-top: 70%; /* Mantiene la proporción 16:9 para la imagen */
+            overflow: hidden;
+        }
+
+        /* Imagen destacada */
+        .featured-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain; /* Ajusta la imagen dentro del contenedor */
+            object-position: center; /* Centra la imagen */
+            transition: var(--transition-normal);
+        }
+
+        /* Efecto hover para imagen destacada */
+        .featured-card:hover .featured-image {
+            transform: scale(1.05); /* Ligeramente más grande */
+        }
+
+        /* Superposición de gradiente en la imagen destacada */
+        .featured-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7));
+            z-index: 1;
+        }
+
+        /* Contenido de texto de la tarjeta destacada */
+        .featured-content {
+            padding: 2rem;
+            position: relative;
+            z-index: 2;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Título de elemento destacado */
+        .featured-title {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        /* Descripción de elemento destacado */
+        .featured-description {
+            color: var(--text-secondary);
+            font-size: 1.0rem;
+            margin-bottom: 1.5rem;
+            flex: 1;
+        }
+
+        /* Botón de la tarjeta destacada */
+        .featured-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.75rem 1.5rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: var(--rounded-md);
+            color: var(--text-primary);
+            font-weight: 600;
+            gap: 0.5rem;
+            transition: var(--transition-normal);
+            margin-top: auto;
+            align-self: flex-start; /* Alinea el botón a la izquierda */
+        }
+
+        /* Efecto hover para el botón destacado */
+        .featured-button:hover {
+            background: var(--primary);
+            color: var(--light);
+        }
+
+        /* Certifications Section */
+        .certifications-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Columnas responsivas */
+            gap: 2.5rem;
+        }
+
+        /* Tarjeta de certificación */
+        .cert-card {
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: var(--rounded-lg);
+            padding: 2.5rem 2rem;
+            text-align: center;
+            transition: var(--transition-normal);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centrar contenido horizontalmente */
+        }
+
+        /* Efecto hover para tarjeta de certificación */
+        .cert-card:hover {
+            transform: translateY(-7px);
+            background: rgba(255, 255, 255, 0.03);
+            box-shadow: var(--shadow-lg);
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Imagen de certificación */
+        .cert-card img {
+            width: 120px;
+            height: 120px;
+            margin-bottom: 2rem;
+            transition: var(--transition-normal);
+        }
+
+        /* Efecto hover para imagen de certificación */
+        .cert-card:hover img {
+            transform: scale(1.1);
+        }
+
+        /* Título de certificación */
+        .cert-title {
+            font-size: 1.25rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-primary);
+        }
+
+        /* Emisor de certificación */
+        .cert-issuer {
+            color: var(--primary);
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        /* Fecha de certificación */
+        .cert-date {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Enlace de certificación */
+        .cert-link {
+            display: inline-flex;
+            align-items: center;
+            color: var(--text-secondary);
+            gap: 0.5rem;
+            font-size: 0.9rem;
+            padding: 0.5rem 1rem;
+            border-radius: var(--rounded-full);
+            background: rgba(255, 255, 255, 0.05);
+            transition: var(--transition-normal);
+            margin-top: auto; /* Empuja el enlace hacia abajo */
+        }
+
+        /* Efecto hover para enlace de certificación */
+        .cert-link:hover {
+            background: var(--primary);
+            color: var(--light);
+        }
+
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Columnas responsivas */
+            gap: 2.5rem;
+        }
+
+        /* Categoría de habilidad */
+        .skill-category {
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: var(--rounded-lg);
+            padding: 2.5rem 2rem;
+            position: relative;
+            transition: var(--transition-normal);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            overflow: hidden;
+            height: 100%;
+        }
+
+        /* Línea de color en la parte superior de la categoría de habilidad */
+        .skill-category::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: var(--gradient-1);
+            z-index: 1;
+        }
+        /* Variaciones de color para las líneas */
+        .skill-category:nth-child(2)::before {
+            background: var(--gradient-2);
+        }
+        .skill-category:nth-child(3)::before {
+            background: var(--gradient-3);
+        }
+        .skill-category:nth-child(4)::before {
+            background: var(--gradient-4);
+        }
+        .skill-category:nth-child(5)::before {
+            background: var(--gradient-1);
+        }
+        .skill-category:nth-child(6)::before {
+            background: var(--gradient-2);
+        }
+
+        /* Efecto hover para categoría de habilidad */
+        .skill-category:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        /* Icono de categoría de habilidad */
+        .category-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+        }
+
+        /* Título de categoría de habilidad */
+        .category-title {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+        }
+
+        /* Lista de etiquetas de habilidad */
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap; /* Permite que las etiquetas se envuelvan a la siguiente línea */
+            gap: 0.75rem; /* Espacio entre etiquetas */
+        }
+
+        /* Etiqueta de habilidad individual */
+        .skill-tag {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 0.6rem 1.2rem;
+            border-radius: var(--rounded-full);
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            transition: var(--transition-normal);
+        }
+
+        /* Efecto hover para etiqueta de habilidad */
+        .skill-tag:hover {
+            background: var(--primary);
+            color: var(--light);
+            border-color: var(--primary);
+            transform: translateY(-3px);
+        }
+
+        /* Contact Section */
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Dos columnas para información y formulario */
+            gap: 4rem;
+            align-items: center;
+        }
+
+        /* Información de contacto */
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        /* Título de información de contacto */
+        .contact-info-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Texto de información de contacto */
+        .contact-info-text {
+            color: var(--text-secondary);
+            font-size: 1.125rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+
+        /* Método de contacto individual (ej. email, teléfono) */
+        .contact-method {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Icono de método de contacto */
+        .contact-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: var(--rounded-full);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--primary);
+        }
+
+        /* Detalles del contacto (etiqueta y valor) */
+        .contact-details {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Etiqueta del detalle de contacto */
+        .contact-label {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.25rem;
+        }
+
+        /* Valor del detalle de contacto */
+        .contact-value {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        /* Contenedor del formulario de contacto */
+        .contact-form-container {
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: var(--rounded-lg);
+            padding: 3rem;
+            box-shadow: var(--shadow-lg);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        /* Título del formulario */
+        .form-title {
+            font-size: 1.75rem;
+            margin-bottom: 2rem;
+            color: var(--text-primary);
+        }
+
+        /* Grupo de formulario (label + input) */
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        /* Etiqueta del formulario */
+        .form-label {
+            display: block;
+            margin-bottom: 0.75rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        /* Controles de formulario (input, textarea) */
+        .form-control {
+            width: 100%;
+            padding: 1rem 1.25rem;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: var(--rounded-md);
+            color: var(--text-primary);
+            font-size: 1rem;
+            transition: var(--transition-normal);
+        }
+
+        /* Estilo al enfocar los controles de formulario */
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(58, 134, 255, 0.25);
+        }
+
+        /* Estilo para el texto placeholder */
+        .form-control::placeholder {
+            color: rgba(255, 255, 255, 0.3);
+        }
+
+        /* Altura mínima para el textarea */
+        textarea.form-control {
+            min-height: 150px;
+            resize: vertical; /* Permite redimensionar verticalmente */
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--dark-secondary);
+            padding: 5rem 0 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Contenido del pie de página con cuadrícula */
+        .footer-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr; /* Columnas para logo/about, enlaces, etc. */
+            gap: 4rem;
+        }
+
+        /* Logo en el pie de página */
+        .footer-logo {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            display: inline-block;
+        }
+
+        /* Texto "Acerca de" en el pie de página */
+        .footer-about {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+            max-width: 400px;
+        }
+
+        /* Títulos de sección en el pie de página */
+        .footer-heading {
+            font-size: 1.25rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Línea decorativa para títulos del pie de página */
+        .footer-heading::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 40px;
+            height: 3px;
+            background: var(--gradient-main);
+            border-radius: var(--rounded-full);
+        }
+
+        /* Lista de enlaces en el pie de página */
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        /* Enlace individual en el pie de página */
+        .footer-link {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            transition: var(--transition-normal);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Efecto hover para enlace del pie de página */
+        .footer-link:hover {
+            color: var(--primary);
+            transform: translateX(5px); /* Desplazamiento horizontal */
+        }
+
+        /* Iconos sociales en el pie de página */
+        .footer-social {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        /* Enlace de icono social en el pie de página */
+        .footer-social-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 38px;
+            height: 38px;
+            border-radius: var(--rounded-full);
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-primary);
+            font-size: 1.1rem;
+            transition: var(--transition-normal);
+        }
+
+        /* Efecto hover para enlace social del pie de página */
+        .footer-social-link:hover {
+            background: var(--primary);
+            color: var(--light);
+            transform: translateY(-3px);
+        }
+
+        /* Sección inferior del pie de página (copyright) */
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 2rem;
+            margin-top: 4rem;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Responsive Design (media queries para adaptación a diferentes tamaños de pantalla) */
+        @media (max-width: 1200px) {
+            .container {
+                padding: 0 1.5rem;
+            }
+            .section {
+                padding: 5rem 0;
+            }
+            .hero-title {
+                font-size: 3.5rem;
+            }
+            .footer-content {
+                grid-template-columns: 1fr 1fr; /* Cambia a 2 columnas */
+                gap: 3rem;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .hero-title {
+                font-size: 3rem;
+            }
+            .about-grid {
+                grid-template-columns: 1fr; /* Pasa a una sola columna */
+                gap: 3rem;
+            }
+            .about-image-container {
+                max-width: 400px;
+                margin: 0 auto;
+            }
+            .contact-container {
+                grid-template-columns: 1fr; /* Pasa a una sola columna */
+                gap: 3rem;
+            }
+            .nav-links {
+                display: none; /* Oculta los enlaces de navegación */
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                flex-direction: column; /* Apila los enlaces verticalmente */
+                background: var(--bg-secondary);
+                padding: 1.5rem;
+                gap: 1rem;
+                box-shadow: var(--shadow-md);
+                border-top: 1px solid rgba(255, 255, 255, 0.05);
+            }
+            .nav-links.active {
+                display: flex; /* Muestra los enlaces cuando el menú está activo */
+            }
+            .menu-toggle {
+                display: block; /* Muestra el botón de alternar menú */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2.5rem;
+            }
+            .section-title {
+                font-size: 2rem;
+            }
+            /* Todas las cuadrículas pasan a una sola columna */
+            .recognition-grid,
+            .featured-grid,
+            .certifications-grid,
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+            .footer-content {
+                grid-template-columns: 1fr; /* El pie de página pasa a una sola columna */
+                gap: 2.5rem;
+            }
+            .social-icons {
+                justify-content: center; /* Centra los iconos sociales */
+            }
+            .hero-cta {
+                flex-direction: column; /* Apila los botones de llamada a la acción */
+                align-items: flex-start;
+            }
+            .btn {
+                width: 100%; /* Botones de ancho completo */
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-title {
+                font-size: 2.25rem;
+            }
+            .hero-subtitle {
+                font-size: 1.125rem;
+            }
+            .contact-form-container {
+                padding: 2rem 1.5rem;
+            }
+            .section {
+                padding: 4rem 0;
+            }
+        }
+
+        /* Animations (Keyframes para efectos visuales) */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes gradientMove {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Clases para aplicar animaciones */
+        .fade-in {
+            animation: fadeIn 1s ease forwards;
+        }
+        .slide-up {
+            animation: slideUp 1s ease forwards;
+        }
+        .fade-left {
+            animation: fadeInLeft 1s ease forwards;
+        }
+        .fade-right {
+            animation: fadeInRight 1s ease forwards;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="nav-logo">
+                <!-- Iniciales de Manuel Sebastian Urrea -->
+                <span class="logo-text">MSU</span>
+            </a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">Sobre Mí</a>
+                <!-- Mantener este enlace si Manuel Sebastian tiene un blog o cambiarlo -->
+                <a href="#" class="nav-link">Blog</a>
+                <a href="#recognitions" class="nav-link">Logros</a>
+                <a href="#featured" class="nav-link">Presencia</a>
+                <a href="#skills" class="nav-link">Habilidades</a>
+                <a href="#contact" class="nav-link">Contacto</a>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="gradient-bg">
+                <div class="gradient-circle circle-1"></div>
+                <div class="gradient-circle circle-2"></div>
+                <div class="gradient-circle circle-3"></div>
+            </div>
+            <div id="particles-js" class="particles-container"></div>
+        </div>
+
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-lead fade-in" style="animation-delay: 0.2s">Mercadólogo y Estratega Comercial</div>
+                <h1 class="hero-title fade-in" style="animation-delay: 0.4s">Manuel Sebastian Urrea</h1>
+                <p class="hero-subtitle fade-in" style="animation-delay: 0.6s">
+                    Estratega de Marketing digital | Especialista en CRM y automatización con IA
+                </p>
+
+                <div class="social-icons fade-in" style="animation-delay: 0.8s">
+                    <a href="https://www.linkedin.com/in/sebastianurrea-marketing/" target="_blank" class="social-icon"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/manuel.urrea39?igsh=MXZyMzd3NDdsZWlvNg%3D%3D" target="_blank" class="social-icon"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@manuelsebastianurreasanche4171" target="_blank" class="social-icon"><i
+                            class="fab fa-youtube"></i></a>
+                    <a href="https://api.whatsapp.com/qr/EVHEP76JKP4YG1?autoload=1&app_absent=0" target="_blank" class="social-icon"><i
+                            class="fab fa-whatsapp"></i></a>
+                </div>
+
+                <div class="hero-cta fade-in" style="animation-delay: 1s">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i>
+                        Contactarme
+                    </a>
+                    <a href="#about" class="btn btn-secondary">
+                        <i class="fas fa-user"></i>
+                        Conocer más
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title text-gradient" data-aos="fade-up">¿Quién Soy?</h2>
+
+            <div class="about-grid">
+                <div class="about-image-container" data-aos="fade-right">
+                    <!-- Placeholder de imagen: Reemplaza esta URL con la ruta a tu imagen 'venoso.jpg' cuando la subas a un servidor o la tengas lista localmente -->
+                    <img src="venoso.jpg" alt="Manuel Sebastian Urrea" class="about-image">
+                    <div class="image-backdrop"></div>
+                </div>
+
+                <div class="about-content" data-aos="fade-left">
+                    <p class="about-text">
+                        Soy un <strong>Profesional en Mercadeo y Estrategia Comercial</strong> con sólida experiencia en <strong>transformación digital</strong>, <strong>posicionamiento de marca</strong> y <strong>crecimiento de ventas</strong> en sectores clave como automotriz, banca y energía. Mi enfoque se centra en la <strong>innovación</strong>, la <strong>gestión de CRM</strong> y la <strong>aplicación estratégica de inteligencia artificial</strong> para optimizar procesos comerciales y mejorar la experiencia del cliente.
+                    </p>
+                    <p class="about-text">
+                        Me distingo por una visión estratégica, un liderazgo colaborativo y una fuerte orientación a resultados. He liderado el diseño e implementación de sistemas automatizados con IA para campañas de marketing y gestión de clientes, demostrando un impacto significativo en el tráfico digital y la satisfacción del usuario.
+                    </p>
+                    <div class="about-stats" data-aos="fade-up">
+                        <div class="stat-item">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Años Exp. Profesional</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">+85%</div>
+                            <div class="stat-label">Crecimiento en Ventas</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">6</div>
+                            <div class="stat-label">Certificaciones Clave</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recognitions Section -->
+    <section id="recognitions" class="section">
+        <div class="container">
+            <h2 class="section-title text-gradient" data-aos="fade-up">Logros Destacados</h2>
+
+            <div class="recognition-grid">
+                <div class="recognition-card" data-aos="fade-up" data-aos-delay="100">
+                    <!-- Placeholder de imagen: Reemplaza con una imagen representativa del proyecto de IA -->
+                    <img src="https://placehold.co/400x180/4cc9f0/FFFFFF?text=Proyecto+IA" alt="Liderazgo Proyecto IA" class="recognition-image">
+                    <div class="recognition-content">
+                        <h3 class="recognition-title">Liderazgo en Proyecto IA y Automatización</h3>
+                        <p class="recognition-description">Encargado del diseño e implementación de un sistema automatizado con IA para marketing y gestión de clientes en La Rueda (2024).</p>
+                        <a href="#contact" class="recognition-link">
+                            Más información <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="recognition-card" data-aos="fade-up" data-aos-delay="200">
+                    <!-- Placeholder de imagen: Reemplaza con una imagen representativa de DS4A -->
+                    <img src="https://placehold.co/400x180/7209b7/FFFFFF?text=DS4A" alt="DS4A Colombia" class="recognition-image">
+                    <div class="recognition-content">
+                        <h3 class="recognition-title">DS4A / Colombia: Graduado con Honores</h3>
+                        <p class="recognition-description">Participante del programa de élite en ciencia de datos de Correlation One (2019), reconocido por su excelencia.</p>
+                        <a href="https://www.credential.net/89af8b31-c092-43ad-8a1e-182d30472f32#acc.mAO9WCk2"
+                            target="_blank" class="recognition-link">
+                            Ver Credencial <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="recognition-card" data-aos="fade-up" data-aos-delay="300">
+                    <!-- Placeholder de imagen: Reemplaza con una imagen representativa de crecimiento comercial -->
+                    <img src="https://placehold.co/400x180/3a86ff/FFFFFF?text=Crecimiento+Comercial" alt="Crecimiento Comercial" class="recognition-image">
+                    <div class="recognition-content">
+                        <h3 class="recognition-title">Impulso al Crecimiento Comercial Sostenido</h3>
+                        <p class="recognition-description">Logró un incremento del 85% en ventas y 45% de crecimiento mensual mediante campañas de fidelización y segmentación avanzada.</p>
+                        <a href="#contact" class="recognition-link">
+                            Detalles <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title text-gradient" data-aos="fade-up">Certificaciones</h2>
+
+            <div class="certifications-grid">
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="100">
+                    <!-- Placeholder de imagen: Reemplaza con la insignia de Google Cloud Digital Leader -->
+                    <img src="https://placehold.co/120x120/CCCCCC/808080?text=Google+Cloud" alt="Google Cloud Digital Leader Badge">
+                    <h3 class="cert-title">Google Cloud Digital Leader</h3>
+                    <p class="cert-issuer">Google Cloud</p>
+                    <span class="cert-date">2024</span>
+                    <a href="https://www.credly.com/badges/9d9d2fea-a8c3-4adc-9241-fbf3dd2d3056/public_url"
+                        target="_blank" class="cert-link">
+                        <i class="fas fa-certificate"></i> Verificar Certificado
+                    </a>
+                </div>
+
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="200">
+                    <!-- Placeholder de imagen: Reemplaza con la insignia de Microsoft Azure Fundamentals -->
+                    <img src="https://placehold.co/120x120/CCCCCC/808080?text=Azure+900" alt="Azure Fundamentals Badge">
+                    <h3 class="cert-title">Microsoft Azure Fundamentals</h3>
+                    <p class="cert-issuer">Microsoft</p>
+                    <span class="cert-date">2024</span>
+                    <a href="https://learn.microsoft.com/es-mx/users/alarcon7a/credentials/cbb93acade5e2ff2"
+                        target="_blank" class="cert-link">
+                        <i class="fas fa-certificate"></i> Verificar Certificado
+                    </a>
+                </div>
+
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="300">
+                    <!-- Placeholder de imagen: Reemplaza con la insignia de Marketing Digital y Gestión de Contenidos -->
+                    <img src="https://placehold.co/120x120/CCCCCC/808080?text=Marketing" alt="Marketing Digital y Gestión de Contenidos Badge">
+                    <h3 class="cert-title">Marketing Digital y Gestión de Contenidos</h3>
+                    <p class="cert-issuer">CREHANA</p>
+                    <span class="cert-date">2022</span>
+                    <!-- Si tiene un enlace de verificación para esta, cámbialo aquí -->
+                    <a href="#" class="cert-link">
+                        <i class="fas fa-certificate"></i> Verificar Certificado
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section id="featured" class="section">
+     <div class="container">
+         <h2 class="section-title text-gradient" data-aos="fade-up">Presencia y Recursos</h2>
+
+         <div class="featured-grid">
+             <div class="featured-card" data-aos="fade-up" data-aos-delay="100">
+                 <div class="featured-image-container">
+                     <!-- Reemplaza con una imagen para su canal de YouTube, si tiene -->
+                     <img src="https://placehold.co/400x280/CCCCCC/808080?text=YouTube" alt="Canal de YouTube" class="featured-image">
+                     <div class="featured-overlay"></div>
+                 </div>
+                 <div class="featured-content">
+                     <h3 class="featured-title">Canal de YouTube</h3>
+                     <p class="featured-description">Como divulgador de tecnología, comparto insights sobre Marketing Digital, IA y experiencia del cliente.</p>
+                     <!-- Reemplaza con el enlace a su canal de YouTube -->
+                     <a href="https://www.youtube.com/@manuelsebastianurreasanche4171" target="_blank" class="featured-button">
+                         <i class="fab fa-youtube"></i> Suscribirse
+                     </a>
+                 </div>
+             </div>
+
+             <div class="featured-card" data-aos="fade-up" data-aos-delay="200">
+                 <div class="featured-image-container">
+                    <!-- Reemplaza con una imagen para sus Podcasts, si participa -->
+                     <img src="https://placehold.co/400x280/CCCCCC/808080?text=Podcasts" alt="Podcasts" class="featured-image">
+                     <div class="featured-overlay"></div>
+                 </div>
+                 <div class="featured-content">
+                     <h3 class="featured-title">Podcasts y Colaboraciones</h3>
+                     <p class="featured-description">Participación en podcasts técnicos, analizando tendencias y estrategias en el ecosistema de IA y datos.</p>
+                     <!-- Reemplaza con el enlace a sus podcasts -->
+                     <a href="#" class="featured-button">
+                         <i class="fas fa-podcast"></i> Escuchar
+                     </a>
+                 </div>
+             </div>
+
+             <div class="featured-card" data-aos="fade-up" data-aos-delay="300">
+                 <div class="featured-image-container">
+                    <!-- Reemplaza con una imagen para sus Charlas o Eventos -->
+                     <img src="https://placehold.co/400x280/CCCCCC/808080?text=Charlas" alt="Eventos y Charlas" class="featured-image">
+                     <div class="featured-overlay"></div>
+                 </div>
+                 <div class="featured-content">
+                     <h3 class="featured-title">Eventos y Charlas</h3>
+                     <p class="featured-description">Conferencias y presentaciones sobre estrategia comercial, CRM, IA y transformación digital.</p>
+                     <!-- Reemplaza con el enlace a un listado de sus eventos o charlas -->
+                     <a href="#" target="_blank" class="featured-button">
+                         <i class="fas fa-microphone-alt"></i> Ver Eventos
+                     </a>
+                 </div>
+             </div>
+         </div>
+     </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title text-gradient" data-aos="fade-up">Mis Habilidades</h2>
+
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-icon"><i class="fas fa-brain"></i></div>
+                    <h3 class="category-title">Marketing Digital e IA</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Automatización de Campañas</span>
+                        <span class="skill-tag">Flujos Conversacionales (IA)</span>
+                        <span class="skill-tag">Estrategia Comercial Digital</span>
+                        <span class="skill-tag">eCommerce</span>
+                        <span class="skill-tag">Content Marketing</span>
+                        <span class="skill-tag">Copywriting & Storytelling</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-icon"><i class="fas fa-database"></i></div>
+                    <h3 class="category-title">CRM y Datos</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Gestión de CRM (HubSpot, Salesforce)</span>
+                        <span class="skill-tag">Marketing Automation</span>
+                        <span class="skill-tag">Email Marketing</span>
+                        <span class="skill-tag">Analítica de Datos</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Looker Studio</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="category-icon"><i class="fas fa-cloud"></i></div>
+                    <h3 class="category-title">Plataformas y Herramientas</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Google Ads</span>
+                        <span class="skill-tag">Google Analytics</span>
+                        <span class="skill-tag">Google Search Console</span>
+                        <span class="skill-tag">Meta Business Suite</span>
+                        <span class="skill-tag">Semrush</span>
+                        <span class="skill-tag">Hootsuite</span>
+                        <span class="skill-tag">Canva</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <div class="category-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3 class="category-title">Optimización y Estrategia</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Optimización de Conversiones</span>
+                        <span class="skill-tag">Customer Journey</span>
+                        <span class="skill-tag">Segmentación Avanzada</span>
+                        <span class="skill-tag">KPIs y Tableros de Control</span>
+                        <span class="skill-tag">Estudios de Mercado</span>
+                        <span class="skill-tag">Estrategia Comercial</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="500">
+                    <div class="category-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3 class="category-title">Habilidades Blandas</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Visión Estratégica</span>
+                        <span class="skill-tag">Liderazgo Colaborativo</span>
+                        <span class="skill-tag">Orientación a Resultados</span>
+                        <span class="skill-tag">Gestión de Proyectos</span>
+                        <span class="skill-tag">Comunicación Efectiva</span>
+                        <span class="skill-tag">Análisis Crítico</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="600">
+                    <div class="category-icon"><i class="fas fa-briefcase"></i></div>
+                    <h3 class="category-title">Experiencia Sectorial</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Automotriz</span>
+                        <span class="skill-tag">Banca</span>
+                        <span class="skill-tag">Energía</span>
+                        <span class="skill-tag">Consultoría</span>
+                        <span class="skill-tag">Retail</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title text-gradient" data-aos="fade-up">Contacto</h2>
+
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3 class="contact-info-title">Conectemos</h3>
+                    <p class="contact-info-text">
+                        Si estás interesado en colaborar en proyectos de marketing digital, CRM, IA o necesitas consultoría especializada, no dudes en contactarme. Estoy siempre abierto a nuevas oportunidades y desafíos que permitan transformar y optimizar la experiencia del cliente.
+                    </p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Ubicación</span>
+                                <span class="contact-value">Bogotá, Colombia</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">LinkedIn</span>
+                                <a href="https://www.linkedin.com/in/sebastianurrea-marketing/" target="_blank"
+                                    class="contact-value">linkedin.com/in/sebastianurrea-marketing</a>
+                            </div>
+                        </div>
+
+                         <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">sebastian.urrea.sanchez@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container" data-aos="fade-left">
+                    <h3 class="form-title">Envíame un mensaje</h3>
+                    <!--
+                        IMPORTANTE: Para que este formulario funcione, necesitas reemplazar 'https://formspree.io/f/xnnqndbr'
+                        con tu propio endpoint de Formspree o un servicio similar. Formspree es una forma sencilla de
+                        recibir correos de tu formulario sin necesidad de código en el servidor.
+                        Visita https://formspree.io/ para configurar el tuyo.
+                    -->
+                    <form action="https://formspree.io/f/xnnqndbr" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Tu nombre"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control"
+                                placeholder="Tu correo electrónico" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Mensaje</label>
+                            <textarea id="message" name="message" class="form-control"
+                                placeholder="¿En qué puedo ayudarte?" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <a href="#" class="footer-logo">
+                        <span class="logo-text">Manuel Sebastian Urrea</span>
+                    </a>
+                    <p class="footer-about">
+                        Mercadólogo y Estratega Comercial con enfoque en transformación digital, CRM y el uso de inteligencia artificial para optimizar procesos comerciales y mejorar la experiencia del cliente.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/sebastianurrea-marketing/" class="footer-social-link" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@manuelsebastianurreasanche4171" class="footer-social-link" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/qr/EVHEP76JKP4YG1?autoload=1&app_absent=0" class="footer-social-link" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Enlaces Rápidos</h4>
+                    <div class="footer-links">
+                        <a href="#about" class="footer-link">
+                            <i class="fas fa-chevron-right"></i> Sobre Mí
+                        </a>
+                        <a href="#skills" class="footer-link">
+                            <i class="fas fa-chevron-right"></i> Habilidades
+                        </a>
+                        <a href="#recognitions" class="footer-link">
+                            <i class="fas fa-chevron-right"></i> Logros
+                        </a>
+                        <a href="#contact" class="footer-link">
+                            <i class="fas fa-chevron-right"></i> Contacto
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Recursos</h4>
+                    <div class="footer-links">
+                        <!-- Reemplaza con los enlaces de tu hermano si los tiene -->
+                        <a href="#" class="footer-link" target="_blank">
+                            <i class="fas fa-chevron-right"></i> Blog
+                        </a>
+                        <a href="https://www.youtube.com/@manuelsebastianurreasanche4171" class="footer-link" target="_blank">
+                            <i class="fas fa-chevron-right"></i> YouTube
+                        </a>
+                        <a href="#" class="footer-link" target="_blank">
+                            <i class="fas fa-chevron-right"></i> Podcasts
+                        </a>
+                        <a href="#" class="footer-link" target="_blank">
+                            <i class="fas fa-chevron-right"></i> Charlas
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Contacto</h4>
+                    <div class="footer-links">
+                        <a href="https://www.linkedin.com/in/sebastianurrea-marketing/" class="footer-link" target="_blank">
+                            <i class="fab fa-linkedin-in"></i> LinkedIn
+                        </a>
+                        <a href="https://api.whatsapp.com/qr/EVHEP76JKP4YG1?autoload=1&app_absent=0" class="footer-link" target="_blank">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Manuel Sebastian Urrea. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts (asegúrate de que estas URLs de CDN sean correctas y estén actualizadas) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+        // Inicializar AOS (Animate On Scroll) para animaciones al hacer scroll
+        AOS.init({
+            duration: 800,      // Duración de la animación en milisegundos
+            easing: 'ease-in-out', // Curva de aceleración
+            once: true,         // La animación solo se ejecuta una vez
+            mirror: false       // No animar al hacer scroll hacia arriba
+        });
+
+        // Configuración de Particles.js para el fondo animado
+        particlesJS('particles-js', {
+            particles: {
+                number: {
+                    value: 50, // Cantidad de partículas
+                    density: {
+                        enable: true,
+                        value_area: 800
+                    }
+                },
+                color: {
+                    value: '#3a86ff' // Color de las partículas (var(--primary))
+                },
+                shape: {
+                    type: 'circle', // Forma de las partículas
+                    stroke: {
+                        width: 0,
+                        color: '#000000'
+                    }
+                },
+                opacity: {
+                    value: 0.5, // Opacidad
+                    random: true,
+                    anim: {
+                        enable: true,
+                        speed: 1,
+                        opacity_min: 0.1,
+                        sync: false
+                    }
+                },
+                size: {
+                    value: 3, // Tamaño de las partículas
+                    random: true
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 150, // Distancia para que se conecten las líneas
+                    color: '#3a86ff', // Color de las líneas (var(--primary))
+                    opacity: 0.3,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 2, // Velocidad de movimiento
+                    direction: 'none',
+                    random: false,
+                    straight: false,
+                    out_mode: 'out', // Las partículas desaparecen al salir del canvas
+                    bounce: false
+                }
+            },
+            interactivity: {
+                detect_on: 'canvas',
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: 'grab' // Efecto al pasar el ratón (agarre)
+                    },
+                    onclick: {
+                        enable: true,
+                        mode: 'push' // Efecto al hacer clic (empujar)
+                    },
+                    resize: true
+                },
+                modes: {
+                    grab: {
+                        distance: 140,
+                        line_linked: {
+                            opacity: 1
+                        }
+                    },
+                    push: {
+                        particles_nb: 4
+                    }
+                }
+            },
+            retina_detect: true
+        });
+
+        // Control del efecto de la barra de navegación al hacer scroll
+        window.addEventListener('scroll', function () {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) { // Si el scroll supera 100px
+                navbar.classList.add('scrolled'); // Añade la clase 'scrolled'
+            } else {
+                navbar.classList.remove('scrolled'); // Elimina la clase 'scrolled'
+            }
+        });
+
+        // Toggle para el menú de navegación en dispositivos móviles
+        document.getElementById('menuToggle').addEventListener('click', function () {
+            document.querySelector('.nav-links').classList.toggle('active'); // Alterna la clase 'active'
+            const icon = this.querySelector('i');
+            // Cambia el icono de hamburguesa por una 'x' y viceversa
+            if (icon.classList.contains('fa-bars')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // Smooth scroll para enlaces internos (navegación a secciones de la misma página)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault(); // Evita el comportamiento predeterminado del enlace
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return; // Si el enlace es solo '#', no hace nada
+
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    // Cerrar menú móvil si está abierto
+                    document.querySelector('.nav-links').classList.remove('active');
+                    document.querySelector('#menuToggle i').classList.remove('fa-times');
+                    document.querySelector('#menuToggle i').classList.add('fa-bars');
+
+                    // Desplazamiento suave a la sección, ajustando por la altura del encabezado fijo
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80, // 80px para compensar el header
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Resaltar el enlace de navegación activo al hacer scroll
+        window.addEventListener('scroll', function () {
+            const sections = document.querySelectorAll('section[id]');
+            const scrollPosition = window.scrollY + 100; // Ajuste para la posición de scroll
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                const sectionHeight = section.offsetHeight;
+                const sectionId = section.getAttribute('id');
+
+                // Si la posición de scroll está dentro de la sección actual
+                if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                    // Eliminar la clase 'active' de todos los enlaces
+                    document.querySelectorAll('.nav-link').forEach(link => {
+                        link.classList.remove('active');
+                    });
+                    // Añadir la clase 'active' al enlace correspondiente a la sección actual
+                    document.querySelector(`.nav-link[href="#${sectionId}"]`)?.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
